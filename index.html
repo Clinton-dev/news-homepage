@@ -8,12 +8,26 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Vite App</title>
+  <title>News Room</title>
 </head>
 
 <body>
   <div id="app">
+    <div id="mobile-nav-items-wrapper" class="mobile-nav-items">
+      <div class="wrapper">
+        <a href="#" id="close-btn" class="nav-mobile-btn"><img src="/icon-menu-close.svg" alt="menu"></a>
+        
+        <ul class="nav-items-mobile">
+          <li class="nav-item-mobile"><a href="#">Home</a></li>
+          <li class="nav-item-mobile"><a href="#">New</a></li>
+          <li class="nav-item-mobile"><a href="#">Popular</a></li>
+          <li class="nav-item-mobile"><a href="#">Trending</a></li>
+          <li class="nav-item-mobile"><a href="#">Categories</a></li>
+        </ul>
+      </div>
+    </div>
     <nav id="navbar">
       <div class="logo">
         <img src="./public/logo.svg" alt="sites logo">
@@ -28,7 +42,7 @@
         </ul>
       </div>
       <div class="nav-mobile">
-        <a href="#" class="nav-mobile-btn"><img src="/icon-menu.svg" alt="menu"></a>
+        <a href="#" id="menu-btn" class="nav-mobile-btn"><img src="/icon-menu.svg" alt="menu"></a>
       </div>
     </nav>
     <main>

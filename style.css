@@ -75,6 +75,51 @@ ul {
   }
 }
 
+/* mobile Navigation */
+#mobile-nav-items-wrapper {
+  display: none;
+}
+
+.mobile-nav-items {
+  background-color: var(--color-off-white);
+  height: 100vh;
+  width: 70%;
+  position: fixed;
+  top: 0;
+  right: 0;
+  z-index: 3;
+}
+
+.wrapper {
+  position: relative;
+}
+
+.nav-mobile-btn {
+  position: fixed;
+  top: .5rem;
+  right: 1rem;
+}
+
+.nav-items-mobile {
+  margin-top: 5rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.nav-item-mobile {
+  padding: 1rem;
+}
+
+.nav-item-mobile a {
+  color: var(--color-dark-blue);
+} 
+
+@media (min-width: 678px) {
+  #mobile-nav-items-wrapper {
+    display: none;
+  }
+}
+
 /* Hero Section */
 
 .hero {
