@@ -55,6 +55,10 @@ ul {
   color: var(--color-darkgray-blue);
 }
 
+.nav-item a:hover, a:focus {
+  color: var(--color-soft-red);
+}
+
 .nav-desktop {
   display: none;
 }
@@ -177,6 +181,11 @@ ul {
   margin-top: 1rem;
 }
 
+.featured-cta:hover {
+  background-color: var(--color-dark-blue);
+}
+
+
 @media (min-width: 768px) {
   .featured-content {
     width: 65%;
@@ -235,9 +244,15 @@ ul {
   padding-bottom: 1.5rem;
   border-bottom: 1px solid var(--color-darkgray-blue);
 }
+
 .card-title-side-content {
   color: var(--color-off-white);
   font-size: 1.35rem;
+}
+
+.card-title-side-content:hover {
+  color: var(--color-soft-orange);
+  cursor: pointer;
 }
 
 .card-side-content:last-child {
@@ -289,4 +304,9 @@ ul {
   margin-top: 1.3rem;
   font-weight: bolder;
   color: var(--color-dark-blue);
+}
+
+.articles-meta-title:hover {
+  color: var(--color-soft-red);
+  cursor: pointer;
 }
